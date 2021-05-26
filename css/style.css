@@ -1,4 +1,6 @@
-* {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -17,6 +19,8 @@ a {
 .header {
   background: #F2F3F6;
 }
+
+/* nav */
 
 .menu {
   list-style: none;
@@ -39,6 +43,9 @@ a {
 
 .button {
   display: inline-block;
+  border: none;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .button-link {
@@ -56,4 +63,114 @@ a {
   border-radius: 5px;
   padding: 15px 30px;
   color: #FFFFFF;
+}
+
+/* hero */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 53px;
+  margin: 45px 0 15px;
+}
+
+.hero-text {
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  background: #FFFFFF;
+  border: 1px solid rgba(209, 209, 209, 0.1);
+  box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.input {
+  flex-grow: 1;
+  border: none;
+  font-size: 16px;
+  line-height: 19px;
+  background: #FFFFFF;
+  color: #B2B2B2;
+  padding-left: 15px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button-icon {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.button-text {
+  vertical-align: middle;
+}
+
+.tags-group {
+  font-size: 14px;
+  line-height: 17px;
+  color: #B2B2B2;
+  padding-left: 15px;
+}
+
+.tags-label {
+  margin-right: 5px;
+}
+
+.tag {
+  color: #B2B2B2;
+  border: 1px solid #B2B2B2;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+/* category */
+
+.section {
+  padding: 70px 0 80px;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0 0 40px;
+}
+
+.card {
+  background: #F2F3F6;
+  border-radius: 10px;
+  color: #111238;
+  padding: 35px;
+  transition: background 0.2s, color 0.2s;
+  -webkit-transition: background 0.2s, color 0.2s;
+  -moz-transition: background 0.2s, color 0.2s;
+  -ms-transition: background 0.2s, color 0.2s;
+  -o-transition: background 0.2s, color 0.2s;
+}
+
+.card:hover {
+  background: #1A75E8;
+  color: #fff;
+}
+
+.card-icon {
+  font: #111238;
+  margin-bottom: 15px;
+  transition: fill 0.2s;
+  -webkit-transition: fill 0.2s;
+  -moz-transition: fill 0.2s;
+  -ms-transition: fill 0.2s;
+  -o-transition: fill 0.2s;
+}
+
+.card:hover .card-icon {
+  fill: #fff;
 }
