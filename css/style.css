@@ -46,6 +46,7 @@ a {
   border: none;
   font-size: 16px;
   line-height: 19px;
+  cursor: pointer;
 }
 
 .button-link {
@@ -173,4 +174,146 @@ a {
 
 .card:hover .card-icon {
   fill: #fff;
+}
+
+/* offers */
+
+.offer {
+  border: 1px solid #C5C9D5;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.offer-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid #F2F3F6;
+  margin-right: 20px;
+}
+
+.image1 {
+  background: #fff url(../img/offers/technopark.png) no-repeat center / contain;
+}
+
+.image2 {
+  background: #fff url(../img/offers/agilis.png) no-repeat center / contain;
+}
+
+.image3 {
+  background: #fff url(../img/offers/smartvision.jpg) no-repeat center / contain;
+}
+
+.image4 {
+  background: #fff url(../img/offers/saitrix.jpg) no-repeat center / contain;
+}
+
+.image5 {
+  background: #fff url(../img/offers/novikey.jpg) no-repeat center / contain;
+}
+
+.offer-title {
+  margin-right: 45px;
+}
+
+.offer-heading {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0 0 10px;
+}
+
+.offer-place {
+  font-size: 14px;
+  line-height: 17px;
+  opacity: 0.8;
+}
+
+.offer-salary {
+  background: #1A75E8;
+  border-radius: 5px;
+  padding: 10px 25px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-right: 60px;
+}
+
+.more {
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A75E8;
+  margin-left: auto;
+  margin-right: 25px;
+}
+
+.offer-button {
+  margin: 40px auto 80px;
+}
+
+/* subscribe */
+
+.subscribe {
+  background: #F2F3F6;
+  padding: 90px 0;
+}
+
+.subscribe-form {
+  max-width: 460px;
+  margin: auto;
+  text-align: center;
+}
+
+.subscribe-title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  margin: 0 0 20px;
+}
+
+.subscribe-subtitle {
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 40px;
+}
+
+/* footer */
+
+.footer {
+  padding: 70px 0 100px;
+}
+
+.footer-description {
+  margin: 20px 0 10px;
+}
+
+.footer-description,
+.footer-copyright {
+  font-size: 12px;
+  line-height: 140%;
+  color: #B2B2B2;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0 0 15px;
+}
+
+.footer-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-list-link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #111238;
+  margin-bottom: 10px;
 }
