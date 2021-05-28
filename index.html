@@ -19,31 +19,45 @@
 <body>
   <header class="header pb-5">
     <div class="container">
-      <div class="row align-items-center py-3">
-        <div class="col-2">
+      <div class="d-flex d-lg-none align-items-center justify-content-between pt-4">
+          <a href="/" class="logo-link">
+            <img src="img/logo.svg" alt="logo: FindYourJob">
+          </a>
+          <a href="#" class="menu-button">
+            <img src="img/menu-burger.svg" alt="icon: burger-menu" class="menu-burger">
+          </a>
+      </div>
+      <div
+        class="row align-items-center py-3 navbar flex-column flex-lg-row justify-content-center">
+        <a href="#" class="close-button d-lg-none">&times;</a>
+        <div class="col-2 mb-4 mb-lg-0">
           <a href="/" class="logo-link">
             <img src="img/logo.svg" alt="logo: FindYourJob">
           </a>
         </div>
-        <div class="col">
+        <div class="col-lg d-flex justify-content-center mb-4 mb-lg-0">
           <nav class="nav">
-            <ul class="menu d-flex justify-content-center">
-              <li class="menu-item"><a href="#" class="menu-link">Главная</a>
+            <ul class="menu d-flex flex-column flex-lg-row align-items-center">
+              <li class="menu-item mb-2 mb-lg-0"><a href="#"
+                  class="menu-link">Главная</a>
               </li>
-              <li class="menu-item"><a href="#" class="menu-link">Вакансии</a>
+              <li class="menu-item mb-2 mb-lg-0"><a href="#"
+                  class="menu-link">Вакансии</a>
               </li>
-              <li class="menu-item"><a href="#" class="menu-link">Компании</a>
+              <li class="menu-item mb-2 mb-lg-0"><a href="#"
+                  class="menu-link">Компании</a>
               </li>
             </ul>
           </nav>
         </div>
-        <div class="col-3 d-flex align-items-center justify-content-end">
-          <a href="#" class="button button-link">Войти</a>
+        <div
+          class="col-lg-3 d-flex align-items-center justify-content-center justify-content-lg-end flex-column flex-lg-row">
+          <a href="#" class="button button-link mb-3 mb-lg-0">Войти</a>
           <a href="#" class="button button-primary">Регистрация</a>
         </div>
       </div>
       <div class="row pt-5">
-        <div class="col-5">
+        <div class="col-xxl-5 col-lg-7 col-md-9">
           <h1 class="hero-title">Найдите удаленную <br>работу вашей мечты</h1>
           <p class="hero-text">Создайте резюме или отправьте отклик на вакансию
             <br>в&nbsp;компании с мировым именем и
@@ -55,7 +69,8 @@
               <button class="button button-primary">
                 <img src="img/search.svg" alt="icon: search"
                   class="button-icon">
-                <span class="button-text">Искать вакансии</span>
+                <span class="button-text d-none d-md-inline-block">Искать
+                  вакансии</span>
               </button>
             </div>
           </form>
@@ -66,7 +81,7 @@
             <a href="#" class="tag">Designer</a>
           </div>
         </div>
-        <div class="col-6 offset-1">
+        <div class="col-xxl-6 offset-xxl-1 col-lg-5 mt-5 mt-lg-0">
           <img src="img/hero-image.svg" alt="image: people with laptops"
             class="hero-image">
         </div>
@@ -78,7 +93,7 @@
     <div class="container">
       <h2 class="section-title">Категории</h2>
       <div class="row">
-        <div class="col-2">
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
           <a href="#" class="card d-flex flex-column align-items-center">
             <svg class="card-icon" height="24">
               <use href="img/icons.svg#brush"></use>
@@ -86,7 +101,7 @@
             <span class="card-text">Дизайн</span>
           </a>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
           <a href="#" class="card d-flex flex-column align-items-center">
             <svg class="card-icon" height="24">
               <use href="img/icons.svg#browser"></use>
@@ -94,7 +109,7 @@
             <span class="card-text">Разработка</span>
           </a>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
           <a href="#" class="card d-flex flex-column align-items-center">
             <svg class="card-icon" height="24">
               <use href="img/icons.svg#edit"></use>
@@ -102,7 +117,7 @@
             <span class="card-text">Копирайтинг</span>
           </a>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
           <a href="#" class="card d-flex flex-column align-items-center">
             <svg class="card-icon" height="24">
               <use href="img/icons.svg#fingerprint"></use>
@@ -110,7 +125,7 @@
             <span class="card-text">Безопасность</span>
           </a>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
           <a href="#" class="card d-flex flex-column align-items-center">
             <svg class="card-icon" height="24">
               <use href="img/icons.svg#camera"></use>
@@ -118,7 +133,7 @@
             <span class="card-text">Видео</span>
           </a>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
           <a href="#" class="card d-flex flex-column align-items-center">
             <svg class="card-icon" height="24">
               <use href="img/icons.svg#school"></use>
@@ -132,80 +147,80 @@
   <section class="offers">
     <div class="container">
       <h2 class="section-title">Свежие вакансии</h2>
-      <div class="offer d-flex align-items-center">
-        <div class="offer-image image1"></div>
-        <div class="offer-title">
+      <div class="offer d-flex align-items-center flex-column flex-lg-row">
+        <div class="offer-image image1 mb-4 mb-lg-0"></div>
+        <div class="offer-title mb-4 mb-lg-0">
           <h3 class="offer-heading">Front-end разработчик</h3>
           <span class="offer-place">Технопарк, Казань</span>
         </div>
-        <span class="offer-salary">65 000 ₽</span>
+        <span class="offer-salary mb-4 mb-lg-0">65 000 ₽</span>
         <div class="tags-group">
           <span class="tags-label">Требования:</span>
           <a href="#" class="tag">React</a>
           <a href="#" class="tag">Sass</a>
           <a href="#" class="tag">Figma</a>
         </div>
-        <a href="#" class="more">Подробнее →</a>
+        <a href="#" class="more mt-5 mt-lg-0">Подробнее →</a>
       </div>
-      <div class="offer d-flex align-items-center">
-        <div class="offer-image image2"></div>
-        <div class="offer-title">
+      <div class="offer d-flex align-items-center flex-column flex-lg-row">
+        <div class="offer-image image2 mb-4 mb-lg-0"></div>
+        <div class="offer-title mb-4 mb-lg-0">
           <h3 class="offer-heading">Front-end разработчик</h3>
           <span class="offer-place">Москва</span>
         </div>
-        <span class="offer-salary">120 000 ₽</span>
+        <span class="offer-salary mb-4 mb-lg-0">120 000 ₽</span>
         <div class="tags-group">
           <span class="tags-label">Требования:</span>
           <a href="#" class="tag">React</a>
           <a href="#" class="tag">Sass</a>
           <a href="#" class="tag">BEM</a>
         </div>
-        <a href="#" class="more">Подробнее →</a>
+        <a href="#" class="more mt-5 mt-lg-0">Подробнее →</a>
       </div>
-      <div class="offer d-flex align-items-center">
-        <div class="offer-image image3"></div>
-        <div class="offer-title">
+      <div class="offer d-flex align-items-center flex-column flex-lg-row">
+        <div class="offer-image image3 mb-4 mb-lg-0"></div>
+        <div class="offer-title mb-4 mb-lg-0">
           <h3 class="offer-heading">Back-end разработчик</h3>
           <span class="offer-place">Санкт-Петербург</span>
         </div>
-        <span class="offer-salary">100 000 ₽</span>
+        <span class="offer-salary mb-4 mb-lg-0">100 000 ₽</span>
         <div class="tags-group">
           <span class="tags-label">Требования:</span>
           <a href="#" class="tag">View</a>
           <a href="#" class="tag">PHP</a>
-          <a href="#" class="tag">Photoshop</a>
+          <a href="#" class="tag">Figma</a>
         </div>
-        <a href="#" class="more">Подробнее →</a>
+        <a href="#" class="more mt-5 mt-lg-0">Подробнее →</a>
       </div>
-      <div class="offer d-flex align-items-center">
-        <div class="offer-image image4"></div>
-        <div class="offer-title">
+      <div class="offer d-flex align-items-center flex-column flex-lg-row">
+        <div class="offer-image image4 mb-4 mb-lg-0"></div>
+        <div class="offer-title mb-4 mb-lg-0">
           <h3 class="offer-heading">Front-end разработчик</h3>
           <span class="offer-place">Челябинск</span>
         </div>
-        <span class="offer-salary">60 000 ₽</span>
+        <span class="offer-salary mb-4 mb-lg-0">60 000 ₽</span>
         <div class="tags-group">
           <span class="tags-label">Требования:</span>
           <a href="#" class="tag">React</a>
           <a href="#" class="tag">Sass</a>
-          <a href="#" class="tag">Bootstrap</a>
+          <a href="#" class="tag">PHP</a>
         </div>
-        <a href="#" class="more">Подробнее →</a>
+        <a href="#" class="more mt-5 mt-lg-0">Подробнее →</a>
       </div>
-      <div class="offer d-flex align-items-center">
-        <div class="offer-image image5"></div>
-        <div class="offer-title">
+      <div class="offer d-flex align-items-center flex-column flex-lg-row">
+        <div class="offer-image image5 mb-4 mb-lg-0"></div>
+        <div class="offer-title mb-4 mb-lg-0">
           <h3 class="offer-heading">Front-end разработчик</h3>
           <span class="offer-place">Калининград</span>
         </div>
-        <span class="offer-salary">70 000 ₽</span>
+        <span class="offer-salary mb-4 mb-lg-0">70 000 ₽</span>
         <div class="tags-group">
           <span class="tags-label">Требования:</span>
           <a href="#" class="tag">React</a>
           <a href="#" class="tag">Sass</a>
           <a href="#" class="tag">Git</a>
         </div>
-        <a href="#" class="more">Подробнее →</a>
+        <a href="#" class="more mt-5 mt-lg-0">Подробнее →</a>
       </div>
       <button
         class="button button-primary offer-button d-flex align-items-center">
@@ -229,7 +244,8 @@
           <input type="mail" class="input" placeholder="E-mail">
           <button class="button button-primary">
             <img src="img/mail.svg" alt="icon: mail" class="button-icon">
-            <span class="button-text">Подписаться</span>
+            <span
+              class="button-text d-none d-md-inline-block">Подписаться</span>
           </button>
         </div>
       </form>
@@ -239,14 +255,14 @@
   <footer class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0 col-7 mx-auto">
           <img src="img/logo.svg" alt="logo: FindYourJob">
           <p class="footer-description">Сайт с вакансиями для тех,<br>кто ищет
             удаленную работу
           </p>
           <span class="footer-copyright">© 2021</span>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0 col-7 mx-auto">
           <h3 class="footer-title">Свяжитесь с нами</h3>
           <ul class="footer-list">
             <li class="footer-list-item">
@@ -261,7 +277,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0 col-7 mx-auto">
           <h3 class="footer-title">Информация</h3>
           <ul class="footer-list">
             <li class="footer-list-item">
@@ -275,7 +291,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0 col-7 mx-auto">
           <h3 class="footer-title">Навигация по сайту</h3>
           <ul class="footer-list">
             <li class="footer-list-item">
